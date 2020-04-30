@@ -7,13 +7,13 @@
 
 body {
     font-family: 'Muli', sans-serif;
-    background-image: url("img/background2.png");
+    background-image: url('../img/background2.png');
     background-attachment: fixed;
 }
 
 header {
     height: 100%;
-    background-image: url("img/background.png");
+    background: url('../img/background.png');
     background-color: #F5F2E9;
     background-position: right;
     background-size: contain;
@@ -310,7 +310,7 @@ header .header-container .hero .hero-buttons .play-button:hover {
     width: 900px;
     height: 400px;
     margin: 100px auto;
-    background-image:  url("img/background3.png");
+    background-image:  url("../img/background3.png");
     border-radius: 10px;
     transition: .3s;
 }
